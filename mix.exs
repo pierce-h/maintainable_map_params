@@ -7,6 +7,7 @@ defmodule MaintainableMapParams.MixProject do
       version: "0.1.0",
       elixir: "~> 1.7",
       start_permanent: Mix.env() == :prod,
+      package: package(),
       name: "MaintainableMapParams",
       source_url: "https://github.com/pierce-h/maintainable_map_params",
       deps: deps()
